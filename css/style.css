@@ -8,12 +8,86 @@ img {
   vertical-align: bottom;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.reserve-btn {
+  background-color: #978F10;
+  width: 170px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.reserve-btn .calender-img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.reserve-btn a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header {
-  max-width: 1920px;
+  font-size: 16px;
+  width: 100%;
   background-color: gray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #FFFFFF;
+  height: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header .header-title {
+  width: 200px;
+  height: 40px;
+}
+
+.header .header-nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 73%;
+          flex: 0 1 73%;
+}
+
+.header .header-nav .header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-nav .header-list .header-item {
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-nav .header-list .header-item3 {
+  margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */
